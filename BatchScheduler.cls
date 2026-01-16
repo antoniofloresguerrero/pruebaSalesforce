@@ -2,5 +2,6 @@
 global class BatchScheduler implements Schedulable {
     global void execute(SchedulableContext sc) {
         Database.executeBatch(new BatchClass(), 200);
+        // comentario nuevo
     }
 }
